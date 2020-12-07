@@ -27,7 +27,7 @@ dnafile = open(sequence, "r")
 dnareader = dnafile.read()
 
 dnacount = {}
-# iterate over all fields
+# iterate over all fields and count all STR's
 for i in range(1, fields):
     length = len(fieldname[i])
     dnacount[fieldname[i]] = 0
